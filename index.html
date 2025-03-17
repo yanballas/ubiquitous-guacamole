@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png" />
+    <title>Приветственный бонус</title>
+
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <section class="home">
+        <div class="home__inner">
+          <div class="decoration">
+            <div class="decoration__element decoration__element--1">
+              <img src="./icons/icon1.svg" alt="picture" />
+            </div>
+            <div class="decoration__element decoration__element--2">
+              <img src="./icons/icon2.svg" alt="picture" />
+            </div>
+            <div class="decoration__element decoration__element--3">
+              <img src="./icons/icon3.svg" alt="picture" />
+            </div>
+            <div class="decoration__element decoration__element--4">
+              <img src="./icons/icon4.svg" alt="picture" />
+            </div>
+          </div>
+          <div class="home__action">
+            <h3 class="title_xl">Приветственный бонус</h3>
+            <div class="home__action-heading home__action-heading--1">
+              <span>до</span>
+              <h2 class="title_xxl">30 000 ₽</h2>
+            </div>
+            <div class="home__action-heading home__action-heading--2">
+              <h2 class="title_xxl title_xxl--colorful">+250 FS</h2>
+            </div>
+            <ul class="home__action-items">
+              <li>
+                <span>1</span>
+                <p>Зарегистрируйся</p>
+              </li>
+              <li>
+                <span>2</span>
+                <p>Пополни баланс</p>
+              </li>
+              <li>
+                <span>3</span>
+                <p>Получи бонус</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="contact">
+          <h4 class="title_l">РЕГИСТРАЦИЯ</h4>
+          <div class="contact__tab">
+            <button type="button" class="contact__tab-btn contact__tab-btn --active" data-tab="phone">Телефон</button>
+            <button type="button" class="contact__tab-btn" data-tab="email">E-mail</button>
+          </div>
+          <form class="form --active" data-tab="registration">
+            <div class="form__login form__phone --active" data-tab="phone">
+              <div class="form__select form__select-login">
+                <div class="form__select-choose" data-text="7" data-icon="./icons/flag-1.png">
+                  <div class="form__select-icon">
+                    <img src="" alt="icon" />
+                  </div>
+                  <span></span>
+                </div>
+                <ul class="form__select-list">
+                  <li class="form__select-list__item" data-text="7" data-icon="./icons/flag-1.png">
+                    <div class="form__select-icon">
+                      <img src="./icons/flag-1.png" alt="icon" />
+                    </div>
+                    <span>+7</span>
+                  </li>
+                  <li class="form__select-list__item" data-text="1" data-icon="./icons/flag-2.png">
+                    <div class="form__select-icon">
+                      <img src="./icons/flag-2.png" alt="icon" />
+                    </div>
+                    <span>+1</span>
+                  </li>
+                </ul>
+                <input type="number" class="form__input-dumb" />
+              </div>
+              <input type="tel" placeholder="Номер телефона" class="form__input" />
+            </div>
+            <div class="form__login form__email" data-tab="email">
+              <input disabled="" type="email" placeholder="E-mail" class="form__input" />
+            </div>
+            <div class="form__password">
+              <input type="password" required="" placeholder="Пароль" class="form__input" />
+              <button type="button" class="form__password-btn"></button>
+            </div>
+            <div class="form__select form__select-currency">
+              <div class="form__select-choose" data-text="Russian Ruble (RUB)" data-icon="./icons/m-1.svg">
+                <div class="form__select-icon">
+                  <img src="" alt="icon" />
+                </div>
+                <div>
+                  <p>Валюта</p>
+                  <span></span>
+                </div>
+              </div>
+              <ul class="form__select-list">
+                <li class="form__select-list__item" data-text="Russian Ruble (RUB)" data-icon="./icons/m-1.svg">
+                  <div class="form__select-icon">
+                    <img src="./icons/m-1.svg" alt="icon" />
+                  </div>
+                  <span>Russian Ruble (RUB)</span>
+                </li>
+                <li class="form__select-list__item" data-text="Dollar (USD)" data-icon="./icons/m-2.png">
+                  <div class="form__select-icon">
+                    <img src="./icons/m-2.png" alt="icon" />
+                  </div>
+                  <span>Dollar (USD)</span>
+                </li>
+              </ul>
+              <input name="currency" type="text" class="form__input-dumb" />
+            </div>
+            <button type="submit" class="btn btn__submit" disabled="">Зарегистрироваться</button>
+            <div class="form__toggler">
+              <span>Уже есть аккаунт?</span>
+              <button type="button" data-tab="enter">Войти</button>
+            </div>
+            <div class="form__agree">
+              <input type="checkbox" id="adult" name="checkmark" />
+              <span class="form__agree-checkmark"></span>
+              <label for="adult"
+                >Я согласен с
+                <a href="#" target="_blank" class="form__agree-link">Условиями и положениями</a>
+                и мне 18+ лет.</label
+              >
+            </div>
+          </form>
+          <form class="form" data-tab="enter">
+            <div class="form__login form__phone --active" data-tab="phone">
+              <div class="form__select form__select-login">
+                <div class="form__select-choose" data-text="7" data-icon="./icons/flag-1.png">
+                  <div class="form__select-icon">
+                    <img src="" alt="icon" />
+                  </div>
+                  <span></span>
+                </div>
+                <ul class="form__select-list">
+                  <li class="form__select-list__item" data-text="7" data-icon="./icons/flag-1.png">
+                    <div class="form__select-icon">
+                      <img src="./icons/flag-1.png" alt="icon" />
+                    </div>
+                    <span>+7</span>
+                  </li>
+                  <li class="form__select-list__item" data-text="1" data-icon="./icons/flag-2.png">
+                    <div class="form__select-icon">
+                      <img src="./icons/flag-2.png" alt="icon" />
+                    </div>
+                    <span>+1</span>
+                  </li>
+                </ul>
+                <input type="text" class="form__input-dumb" />
+              </div>
+              <input type="tel" placeholder="Номер телефона" class="form__input" />
+            </div>
+            <div class="form__login form__email" data-tab="email">
+              <input disabled="" type="email" placeholder="E-mail" class="form__input" />
+            </div>
+            <div class="form__password">
+              <input type="password" required="" placeholder="Пароль" class="form__input" />
+              <button type="button" class="form__password-btn"></button>
+            </div>
+            <button type="submit" class="btn btn__submit" disabled="">Войти</button>
+            <div class="form__toggler">
+              <span>Нет аккаунта?</span>
+              <button type="button" data-tab="registration">Зарегистрироваться</button>
+            </div>
+          </form>
+          <ul class="payments">
+            <li><img src="./icons/icon5.svg" alt="icon" /></li>
+            <li><img src="./icons/icon6.svg" alt="icon" /></li>
+            <li><img src="./icons/icon7.svg" alt="icon" /></li>
+            <li><img src="./icons/icon8.svg" alt="icon" /></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <script defer src="./indexBlPmHst4.js"></script>
+  </body>
+</html>
